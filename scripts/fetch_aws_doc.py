@@ -18,6 +18,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from markdownify import MarkdownConverter
 
+USER_AGENT = "skill-aws-ko-translation (+https://github.com/conft2k/skill-aws-ko-translation)"
 LANG_ALIASES = {"cli": "bash", "cs": "csharp", "js": "javascript", "nohighlight": ""}
 
 
@@ -70,7 +71,7 @@ def main():
     parser.add_argument("-o", "--output", help="write Markdown here instead of stdout")
     args = parser.parse_args()
 
-    req = urllib.request.Request(args.url, headers={"User-Agent": "Mozilla/5.0"})
+    req = urllib.request.Request(args.url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=30) as resp:
         html = resp.read().decode("utf-8", errors="replace")
 

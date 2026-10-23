@@ -1,0 +1,18 @@
+skill-aws-ko-translation
+Copyright 2026 conft2k
+
+The code and documentation in this repository (SKILL.md, README.md, scripts/)
+are licensed under the Apache License, Version 2.0. See LICENSE.
+
+Translation rules
+-----------------
+
+references/translation-rules.md is a copy of README.md from
+https://github.com/conft2k/doc-aws-ko-translation-rules and is licensed under
+the Creative Commons Attribution 4.0 International License (CC BY 4.0),
+https://creativecommons.org/licenses/by/4.0/. It is NOT covered by the Apache
+License.
+
+"Amazon Web Services", "AWS" and the AWS service names are trademarks of
+Amazon.com, Inc. or its affiliates. This project is not affiliated with or
+endorsed by Amazon Web Services.

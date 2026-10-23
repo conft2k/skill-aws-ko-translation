@@ -46,9 +46,15 @@ python3 scripts/check_translation.py source.en.md source.ko.md
 
 ## 규칙 수정
 
-규칙의 원본은 doc-aws-ko-translation-rules 저장소입니다. 그쪽을 고친 뒤 이 저장소로
-복사해서 커밋합니다.
+번역 규칙의 원본은 [doc-aws-ko-translation-rules](https://github.com/conft2k/doc-aws-ko-translation-rules)
+저장소입니다. 규칙을 바꾸자는 제안은 그 저장소에 이슈나 PR로 올려 주세요. 이 저장소의
+`references/translation-rules.md`는 원본이 바뀔 때 그대로 복사해 맞춥니다.
 
-```bash
-cp ~/dev/doc-aws-ko-translation-rules/README.md references/translation-rules.md
-```
+## 라이선스
+
+skill의 코드와 문서는 Apache License 2.0을 따릅니다([LICENSE](LICENSE) 참고).
+
+`references/translation-rules.md`는 doc-aws-ko-translation-rules의 `README.md`를 복사한 것으로,
+위 라이선스가 아니라 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)을 따릅니다.
+[NOTICE](NOTICE)를 참고하세요. 이 프로젝트는 AWS와 제휴 관계가 없고 AWS의 보증을 받지
+않았습니다.
